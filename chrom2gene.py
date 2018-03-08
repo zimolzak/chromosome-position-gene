@@ -10,7 +10,7 @@ from cruzdb import Genome
 
 # sudo apt-get install mysql-server
 # sudo apt-get install libmysqlclient-dev # gives us mysql_config
-
+# download the MySQLdb source and do process described in INSTALL file
 
 hg19 = Genome('hg19')
 INPUTFILE = "suggestive.pheno_simple.covar_none.test_wald.csv"
